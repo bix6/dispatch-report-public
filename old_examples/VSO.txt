@@ -1,0 +1,34 @@
+{
+  "available": true,
+  "notes": "",
+  "departureDepotId": "depotID",
+  "arrivalDepotId": "depotID",
+  "timeWindow": {
+    "startSec": 28800,
+    "endSec": 61200
+  },
+  "flexStartTime": true,
+  "perStopCost": 0,
+  "perStopTimeSec": 0,
+  "maxWorkingTimeSec": 0,
+  "maxDrivingTimeSec": 0,
+  "maxDistanceMt": 0,
+  "maxOrders": 0,
+  "breaks": [],
+  "loadCapacities": {
+    "frozen ton": 500,
+    "regular ton": 500
+  },
+  "regionIds": ["regionID"],
+  "activationCost": 0,
+  "drivingTimeCost": 2000,
+  "idleTimeCost": 2000,
+  "serviceTimeCost": 2000,
+  "breakTimeCost": 2000,
+  "kmCost": 100,
+  "tags": [
+    "frozen",
+    "regular"
+  ],
+  "speedFactor": 100
+}
